@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  height: 100vh;
+  background-color: hsl(225, 100%, 94%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+}
+.order-summary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.card {
+  background-color: #ffff;
+  width: 350px;
+  font-family: "Red Hat Display", sans-serif;
+  border-radius: 15px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+}
+.card-image img {
+  width: 100%;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.card-content {
+  padding: 2rem;
+}
+h1 {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  margin-top: 1rem;
+}
+p {
+  font-size: 1rem;
+  color: hsl(224, 23%, 55%);
+  margin-bottom: 2rem;
+}
+.plan {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+}
+.plan icon {
+  width: 24px;
+}
+.plan-details {
+  flex: 1;
+  text-align: left;
+  margin-left: 1rem;
+}
+.plan-details span:first-child {
+  display: block;
+  color: hsl(223, 47%, 23%);
+  font-size: 1rem;
+  font-weight: 700;
+}
+.plan-details span:last-child {
+  color: hsl(224, 23%, 55%);
+}
+
+.change-link {
+  font-size: 0.875rem;
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* .change-link:hover {
+  text-decoration: underline;
+} */
+
+.payment-btn {
+  width: 100%;
+  padding: 15px;
+  color: #fff;
+  background-color: hsl(245, 75%, 52%);
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s;
+}
+
+.payment-btn:hover {
+  background-color: hsl(245, 60%, 67%);
+}
+
+.cancel-btn {
+  background: none;
+  border: none;
+  color: hsl(224, 23%, 55%);
+  font-size: 0.875rem;
+  cursor: pointer;
+  font-weight: 700;
+  transition: color 0.3s;
+}
+
+.cancel-btn:hover {
+  color: hsl(223, 47%, 23%);
+}
