@@ -118,3 +118,51 @@ p {
 .cancel-btn:hover {
   color: hsl(223, 47%, 23%);
 }
+@media (max-width: 375px) {
+  .card {
+    width: 300px;
+  }
+  .card-content {
+    padding: 1.5rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+  .plan {
+    
+    padding: 0.5rem;
+  }
+  .plan-details {
+    text-align: center;
+    margin: 0.5rem 0;
+  }
+}
+
+/* Desktop (min-width: 1440px) */
+@media (min-width: 1440px) {
+  .card {
+    width: 400px;
+  }
+  .card-content {
+    padding: 2.5rem;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+  p {
+    font-size: 1.1rem;
+  }
+  .plan {
+    padding: 1.2rem;
+  }
+  .payment-btn {
+    padding: 20px;
+    font-size: 1.1rem;
+  }
+  .cancel-btn {
+    font-size: 1rem;
+  }
+}
